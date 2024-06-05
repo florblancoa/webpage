@@ -1,0 +1,269 @@
+.encabezado{
+    background-color: black;
+    height: 30vh;
+    margin: 1rem;
+    margin-top: 0.5rem;
+    background-image: url("./imagenes/logo.jpeg");
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size: contain; 
+    
+
+    
+        
+}
+
+
+.fw-bolder{
+   margin: 0rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 0;
+    color: white;
+    font-size: xx-large;
+   
+    
+ 
+    }
+
+    .fst-italic{
+        
+        color: white;
+       padding-left: 11rem;
+       line-height: 1rem;
+       font-size:smaller;
+       justify-content:flex-end;
+       
+             
+    }
+.descripcion{
+    color: white;
+    line-height: 7rem;
+    padding-left: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: left;
+    
+    
+}
+
+
+.btn-secondary.dropdown-toggle{
+    background-color: #f7f307;
+    
+    
+    
+}
+
+.dropdown{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    padding: 10px; 
+     top: -6rem;
+    
+     
+     
+
+    }
+
+    
+    .dropdown-menu:hover{
+        background-color: #F7DC6F;
+        
+        
+       
+        
+}
+.mb-3 input:focus{
+    background-color: #ebaf0b;
+}
+
+.form-floating textarea:focus{
+    background-color: #ebaf0b;
+}    
+.dropdown-menu{
+background-color: #F7DC6F;
+
+
+}
+.dropdown-item{
+    font-style:italic;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+
+#carouselExampleIndicators{
+
+    margin: 1rem;
+    top: -2rem;
+  
+
+   
+       
+       
+}
+
+.carousel.slide{
+        width: 80vh;
+       
+    
+    
+
+}
+
+.carousel-indicators{
+    background-color: black;
+}
+    
+
+
+.carousel-inner img{
+    width:70vh;
+   
+
+}
+
+
+.carousel-control-prev,.carousel-control-prev-icon,.visually-hidden,.carousel-control-next,.carousel-control-next-icon,.visually-hidden{
+    background-color: black;
+}
+
+.cuerpo{
+
+    background-color: #F7DC6F ;
+   
+}
+
+.contenido{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.novedades{
+    width: 50%;
+    float:right;
+    
+    padding-right: 1rem;
+    top: -2rem;
+     display: flex;
+     flex-direction: column;
+     font-family:'Times New Roman', Times, serif;
+
+     }
+     
+    .novedades h6{
+           text-decoration-color: black;
+           background-color: bisque;
+           padding: 1rem;
+           font-style:oblique;
+
+    }
+  
+
+
+.novedades img{
+     width: 60%;
+     border-radius: 10%;
+    
+ 
+
+}
+
+.alfystand{
+        margin-left: 10rem;
+        padding-top: 2rem;
+        
+
+}
+
+
+.piedepagina{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 2rem;
+    margin: 1rem;
+    margin-bottom: 0.5rem;
+
+    
+}
+
+.piedepagina p{
+    padding-top: 0.5rem;
+    font-size: small;
+    
+}
+    
+
+.formulario{
+        padding: 2rem;
+    
+}
+  
+.mb-3-form-check{
+    padding: 1rem;
+    padding-left: 0;
+}
+
+.form-floating{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+@media screen and (max-width: 1024px){
+
+
+
+    .fw-bolder{
+        font-size: small;
+    }
+
+    .fst-italic{
+        display: none;
+    }
+    .contenido{
+        display:flex;
+        flex-direction: column;
+         flex-wrap: wrap;
+         width: auto;
+        }
+     .descripcion{
+        display: none;
+     }
+    .dropdown{
+        display:block;
+        bottom: 50rem;
+        margin: 8rem;
+        margin-left: 1rem;
+
+           
+    }
+.encabezado{
+    width:auto;
+    padding: auto;
+    
+}
+
+    .novedades{
+        width: auto;
+        padding: auto;
+        margin:auto;
+        margin-left: 1rem;
+    }
+    .alfystand{
+        width: auto;
+        align-items: center;
+    }
+
+    .piedepagina{
+       width: auto;
+       padding: auto;
+    }
+    .carousel.slide{
+        width: auto;
+        padding: auto;
+    }
+
+}
